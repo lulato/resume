@@ -1,0 +1,13 @@
+@import "bourbon";
+@import "../lib/neat/neat";
+
+@import "base/base";
+// Small test from the site
+
+
+//  this is a box created to check if neat is running.
+.some-box {
+  @include span-columns(6);
+  background: #000;
+  height: 200px;
+}
