@@ -1,5 +1,7 @@
 {% extends "base.html" %}
+
 {% block content %}
+
 <a id="documentation" href="http://cactusformac.com/redirect/#documentation">Documentation</a>
   
 <section id="wrapper">
@@ -27,4 +29,37 @@
 
 </section>
 
-<a href="http://cactusformac.com"><img id="badge" class="2x" src="{% static '/images/badge.png' %}"/></a>{% endblock content%}
+<div class = "browsers">
+  <div class = "browser">
+    <div class="browser-top-bar">
+      <div class="browser-circle"></div>
+      <div class="browser-circle"></div>
+      <div class="browser-circle"></div>
+    </div>
+  <div class="browser-content"></div>
+  </div>
+  <div class = "browser">
+    <div class="browser-top-bar">
+      <div class="browser-circle"></div>
+      <div class="browser-circle"></div>
+      <div class="browser-circle"></div>
+    </div>
+    <div class="browser-content">
+    </div>
+  </div>
+  <div class = "browser">
+    <div class="browser-top-bar">
+      <div class="browser-circle"></div>
+      <div class="browser-circle"></div>
+      <div class="browser-circle"></div>
+    </div>
+    <div class="browser-content"></div>
+  </div>
+</div>
+
+<div class="cover"></div>
+
+
+<a href="http://cactusformac.com"><img id="badge" class="2x" src="{% static '/images/badge.png' %}"/></a>
+
+{% endblock content%}
