@@ -1,0 +1,52 @@
+// side bar
+.page-content
+  min-width: 320px
+  background: white
+  position: relative
+  z-index: 1
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5)
+  +transition()
+
+.toggle
+  +transition()
+  text-decoration: none
+  font-size: 24px
+  padding: 15px 25px
+  color: #c1c1c1
+  +position(fixed, 20px 0 0 20px)
+  z-index: 2
+  width: 25px
+  height: 25px
+
+  // burger button 
+  .icon-bar
+    margin-bottom: 4px
+    width: 22px
+    height: 3px
+    border-radius: 1px
+    background: red
+
+
+.sidebar
+  z-index: 0
+  +position(fixed, 0px 0 0px 0px)
+  width: 100%
+  padding: 20px
+  background: green
+  li
+    color: rgba(255, 255, 255, 0.8)
+    font-size: 18px
+    &:hover
+      color: rgba(255, 255, 255, 1)
+
+
+// not actual toggler styles for burger go on toggle
+// this is for functionality without js
+#sidebar-toggler
+  display: none
+  &:checked + .wrap
+    .toggle
+      left: 75%
+    .page-content
+      +transform(translate3d(75%,0,0))
+      overflow: hidden
