@@ -2,68 +2,127 @@
 
 {% block content %}
 
-<a id="documentation" href="http://cactusformac.com/redirect/#documentation">Documentation</a>
-  
-<section id="wrapper">
-  <div class="some-box"></div>
-  <p class="center">This is the <strong>Bourbon/Neat Template</strong> for Cactus and put together by <strong>Luis La Torre.</strong>  It is a barebones starting point for your project. It has all the files you need to set up a website, yet barely any pre-defined styles. If you’d like to start from scratch, this one’s for you.</p>
-
-  <head>
-
-</head>
-
-<article class="type-system-serif">
-  <p class="type">Article Type</p>
-  <h1>Article Heading</h1>
-  <h2>These override some of the styles specified in the <code>_variables.scss</code> and <code>_typography.scss</code> partials in <a href="//bitters.bourbon.io">Bitters</a>. You can replace the typography variables and the header font specifications in Bitters with these styles. Then you won&rsquo;t need the wrapping class <code>.type-system-name</code>.</h2>
-  <p class="date">30 Mar 2014</p>
-  <p><span>Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit. Consequatur a, ullam, voluptatum incidunt neque doloremque vel inventore distinctio laudantium harum</a> illo quam nulla dolor alias iure impedit! Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit.
-    <a href="javascript:void(0)" class="read-more">Read More <span>&rsaquo;</span></a>
-  </p>
-  <h3>Subheading lorem</h3>
-  <p><span>Consequatur ullam, voluptatum</span> incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit. Accusamus. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit! Accusamus.</p>
-  <hr>
-  <p class="author">Author Name</p>
-</article>
-
-
-</section>
-
-<div class = "browsers">
-  <div class = "browser">
-    <div class="browser-top-bar">
-      <div class="browser-circle"></div>
-      <div class="browser-circle"></div>
-      <div class="browser-circle"></div>
-    </div>
-  <div class="browser-content"></div>
+<!-- <header class="centered-navigation">
+  <div class="centered-navigation-wrapper">
+    <a href="javascript:void(0)" class="mobile-logo">
+      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
+    </a>
+    <a href="" class="centered-navigation-menu-button">MENU</a>
+    <ul class="centered-navigation-menu">
+      <li class="nav-link"><a href="javascript:void(0)">Products</a></li>
+      <li class="nav-link"><a href="javascript:void(0)">About Us</a></li>
+      <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+      <li class="logo">
+        <a href="javascript:void(0)" class="logo">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
+        </a>
+      </li>
+      <li class="nav-link"><a href="javascript:void(0)">Testimonials</a></li>
+      <li class="nav-link more"><a href="javascript:void(0)">More</a>
+        <ul class="submenu">
+          <li><a href="javascript:void(0)">Submenu Item</a></li>
+          <li><a href="javascript:void(0)">Another Item</a></li>
+          <li class="more"><a href="javascript:void(0)">Item with submenu</a>
+            <ul class="submenu">
+              <li><a href="javascript:void(0)">Sub-submenu Item</a></li>
+              <li><a href="javascript:void(0)">Another Item</a></li>
+            </ul>
+          </li>
+          <li class="more"><a href="javascript:void(0)">Another submenu</a>
+            <ul class="submenu">
+              <li><a href="javascript:void(0)">Sub-submenu</a></li>
+              <li><a href="javascript:void(0)">An Item</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="javascript:void(0)">Sign up</a></li>
+    </ul>
   </div>
-  <div class = "browser">
-    <div class="browser-top-bar">
-      <div class="browser-circle"></div>
-      <div class="browser-circle"></div>
-      <div class="browser-circle"></div>
-    </div>
-    <div class="browser-content">
-    </div>
-  </div>
-  <div class = "browser">
-    <div class="browser-top-bar">
-      <div class="browser-circle"></div>
-      <div class="browser-circle"></div>
-      <div class="browser-circle"></div>
-    </div>
+</header> -->
+
+
+<input type="checkbox" id="sidebar-toggler">
+
+<div class="wrap">
+  <label for="sidebar-toggler" class="toggle">
+    <div class="icon-bar"></div>
+    <div class="icon-bar"></div>
+    <div class="icon-bar"></div>
+  </label>
+
+<div class="page-content">
+  <section id="wrapper">
+    <div class="some-box"></div>
+    <p class="center">This is the <strong>Bourbon/Neat Template</strong> for Cactus and put together by <strong>Luis La Torre.</strong>  It is a barebones starting point for your project. It has all the files you need to set up a website, yet barely any pre-defined styles. If you’d like to start from scratch, this one’s for you.</p>
+
+
+  <article class="type-system-serif">
+    <p class="type">Article Type</p>
+    <h1>Article Heading</h1>
+    <h2>These override some of the styles specified in the <code>_variables.scss</code> and <code>_typography.scss</code> partials in <a href="//bitters.bourbon.io">Bitters</a>. You can replace the typography variables and the header font specifications in Bitters with these styles. Then you won&rsquo;t need the wrapping class <code>.type-system-name</code>.</h2>
+    <p class="date">30 Mar 2014</p>
+    <p><span>Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit. Consequatur a, ullam, voluptatum incidunt neque doloremque vel inventore distinctio laudantium harum</a> illo quam nulla dolor alias iure impedit! Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit.
+      <a href="javascript:void(0)" class="read-more">Read More <span>&rsaquo;</span></a>
+    </p>
+    <h3>Subheading lorem</h3>
+    <p><span>Consequatur ullam, voluptatum</span> incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit. Accusamus. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit! Accusamus.</p>
+    <hr>
+    <p class="author">Author Name</p>
+  </article>
+
+
+  </section>
+
+  <div class = "browsers">
+    <div class = "browser">
+      <div class="browser-top-bar">
+        <div class="browser-circle"></div>
+        <div class="browser-circle"></div>
+        <div class="browser-circle"></div>
+      </div>
     <div class="browser-content"></div>
+    </div>
+    <div class = "browser">
+      <div class="browser-top-bar">
+        <div class="browser-circle"></div>
+        <div class="browser-circle"></div>
+        <div class="browser-circle"></div>
+      </div>
+      <div class="browser-content">
+      </div>
+    </div>
+    <div class = "browser">
+      <div class="browser-top-bar">
+        <div class="browser-circle"></div>
+        <div class="browser-circle"></div>
+        <div class="browser-circle"></div>
+      </div>
+      <div class="browser-content"></div>
+    </div>
   </div>
-</div>
 
-<div class="cover"></div>
-
-<button>Update</button>
+  <div class="cover"></div>
 
 
+  <button>Update</button>
 
 
-<a href="http://cactusformac.com"><img id="badge" class="2x" src="{% static '/images/badge.png' %}"/></a>
 
+
+  <a href="http://cactusformac.com"><img id="badge" class="2x" src="{% static '/images/badge.png' %}"/></a>
+
+</div> <!-- end of .page-content -->
+
+<div class="sidebar">
+  <ul>
+    <li>Link</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+
+</div><!-- end of .sidebar -->
+
+
+</div><!-- end of .wrap -->
 {% endblock content%}
