@@ -1,4 +1,4 @@
-This is the Cactus template for Bourbon
+This is the Cactus template for Bourbon / Neat / Bitters
 
 It also includes Neat and Bitters which is scafolding styles for Bourbon
 
